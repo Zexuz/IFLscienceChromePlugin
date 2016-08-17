@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "IFLS extenstion",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.iflscience.com/*"],
+      "js": ["urlChanger.js"]
+    }
+  ]
+
+}
